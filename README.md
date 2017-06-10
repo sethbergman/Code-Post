@@ -1,5 +1,7 @@
 # Code-Post
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sethbergman/Code-Post.svg)](https://greenkeeper.io/)
+
 ![](src/assets/images/Code-Post.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
