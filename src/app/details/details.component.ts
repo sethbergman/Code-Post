@@ -3,6 +3,8 @@ import { PostService } from '../post.service';
 import { Post } from '../post';
 import { Router, ActivatedRoute } from '@angular/router';
 import { routerTransition } from '../animations';
+import { MarkdownModule } from 'angular2-markdown';
+
 
 @Component({
 	selector: 'app-details',

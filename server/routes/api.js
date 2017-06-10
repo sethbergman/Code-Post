@@ -3,9 +3,9 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const post = require('../models/post');
 
-// const db = "mongodb://localhost:27017/codepost";
+const db = "mongodb://localhost:27017/codepost";
 
-const db = "mongodb://public:post12321@ds163181.mlab.com:63181/codepost";
+// const db = "mongodb://public:post12321@ds163181.mlab.com:63181/codepost";
 
 mongoose.Promise = global.Promise;
 mongoose.connect(db, function (err) {

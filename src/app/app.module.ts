@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { MarkdownModule } from 'angular2-markdown';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -29,6 +30,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 		HttpModule,
 		AppRoutingModule,
 		ReactiveFormsModule,
+		MarkdownModule.forRoot(),
 		BrowserAnimationsModule
 	],
 	providers: [PostService],

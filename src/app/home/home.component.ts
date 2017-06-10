@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PostService } from '../post.service';
 import { Post } from '../post';
 import { routerTransition } from '../animations';
+import { MarkdownModule } from 'angular2-markdown';
 
 @Component({
 	selector: 'app-home',

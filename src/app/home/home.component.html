@@ -7,7 +7,7 @@
           <a routerLink="/details/{{ post._id }}" class="post-title">{{ post.title }}</a>
         </div>
         <div class="columns small-12 large-2 show-for-large">
-          <a href="#" target="_blank" class="external">
+          <a routerLink="/details/{{ post._id }}" class="external">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 96.8 96.8" style="enable-background:new 0 0 96.8 96.8;" xml:space="preserve">
               <g id="group">
@@ -19,7 +19,7 @@
           </a>
         </div>
       </div>
-      <p>{{ post.description | length: 10 }}</p>
+      <markdown>{{ post.description }}</markdown>
       <a routerLink="/details/{{ post._id }}" class="cta-btn btn2">More Info</a>
     </div>
   </div>

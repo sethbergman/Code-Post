@@ -1,11 +1,12 @@
 {
-	"name": "codepostnet",
-	"version": "0.0.0",
+	"name": "Code-Post",
+	"version": "0.0.1",
 	"license": "MIT",
+	"author": "Seth Bergman",
 	"scripts": {
 		"ng": "ng",
 		"start": "node server.js",
-		"build": "ng build",
+		"build": "ng build -prod",
 		"test": "ng test",
 		"lint": "ng lint",
 		"e2e": "ng e2e"
@@ -21,6 +22,7 @@
 		"@angular/platform-browser": "^4.0.0",
 		"@angular/platform-browser-dynamic": "^4.0.0",
 		"@angular/router": "^4.0.0",
+		"angular2-markdown": "^1.6.0",
 		"angularfire2": "^4.0.0-rc.1",
 		"body-parser": "^1.17.1",
 		"core-js": "^2.4.1",

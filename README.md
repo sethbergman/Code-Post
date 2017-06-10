@@ -1,6 +1,8 @@
-# Codepostnet
+# Code-Post
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
+![](src/assets/images/Code-Post.png)
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
 ## Development server
 
@@ -13,6 +15,12 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Starting the production server
+
+Make sure your have mongoDB running. `sudo mongod`.
+
+Run `npm start` to run `node server.js` and open on [http://localhost:3000](http://localhost:3000).
 
 ## Running unit tests
 
